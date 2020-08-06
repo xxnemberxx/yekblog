@@ -1,0 +1,47 @@
+.sb-cata-list li{
+    list-style-type: square;
+}
+.sb-cata-list li a {
+	display: block;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sb-cata-list li span {
+	float: right;
+	display: inline-block;
+	min-width: 25px;
+	height: 25px;
+	font-size: 14px;
+	color: #ffffffdc;
+	border-radius: 35px;
+	background: #fff;
+	text-align: center;
+	padding: 3px 5px 0;
+}
+
+.sb-cata-list li:nth-child(1) span {
+	background: #10ddb4;
+}
+
+.sb-cata-list li:nth-child(2) span {
+	background: #ff1980;
+}
+
+.sb-cata-list li:nth-child(3) span {
+	background: #ffe119;
+}
+
+.sb-cata-list li:nth-child(4) span {
+	background: #5da9e4;
+}
+
+.sb-cata-list li:nth-child(5) span {
+	background: #bd9bd2;
+}
+
+.sb-cata-list li:nth-child(6) span {
+	background: #f89843;
+}
